@@ -3,10 +3,14 @@ package main
 import "fmt"
 
 func main(){
-	for i:=1;i<=9;i++{
-		for j:=1;j<=i;j++{
-			fmt.Printf("%v * %v = %v\t",j,i,i*j)
-		}
-		fmt.Println()
+	var n int = 30
+	fmt.Println("ok1")
+	if n>20 {
+		return
 	}
+	fmt.Println("ok2")
+	fmt.Println("ok3")
+	fmt.Println("ok4")
+	fmt.Println("ok5")
+	fmt.Println("ok6")
 }
