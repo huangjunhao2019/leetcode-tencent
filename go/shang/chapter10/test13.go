@@ -20,7 +20,7 @@ func (mu *MethodUtils) JudgeNum(num int){
 	}
 }
 func main(){
-	var me MethodUtils
+	var me MethodUtils 
 
 	me.JudgeNum(3)
 	me.Print(3,2,'+')
